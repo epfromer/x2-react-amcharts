@@ -7,7 +7,8 @@
     "node": ">= 10"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "serve -s build",
+    "serve": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -36,9 +37,9 @@
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "recharts": "^1.8.5",
     "redux": "^4.0.5",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "serve": "^11.3.1"
   },
   "eslintConfig": {
     "extends": [
